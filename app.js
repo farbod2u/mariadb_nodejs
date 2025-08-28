@@ -20,7 +20,7 @@ app.post('/personal', async (req, res) => {
             [name, email, age]
         );
         conn.release();
-        res.status(201).json({ id: result.insertId, name, email, age });
+        res.status(201).json({ id: Number(result.insertId), name, email, age });
     } catch (err) {
         res.status(500).json({ error: err.message });
     }
