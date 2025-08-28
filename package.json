@@ -1,15 +1,14 @@
-// File: package.json
 {
-"name": "personal-api",
-"version": "1.0.0",
-"description": "CRUD API for personal table using Node.js and MariaDB",
-"main": "app.js",
-"scripts": {
-"start": "node app.js"
+  "name": "personal-api",
+  "version": "1.0.0",
+  "description": "CRUD API for personal table using Node.js and MariaDB",
+  "main": "app.js",
+  "scripts": {
+  "start": "node app.js"
 },
-"dependencies": {
-"body-parser": "^1.20.2",
-"express": "^4.18.2",
-"mariadb": "^3.2.0"
-}
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mariadb": "^3.2.0"
+  }
 }
